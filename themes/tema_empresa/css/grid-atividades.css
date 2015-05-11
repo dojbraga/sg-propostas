@@ -1,0 +1,243 @@
+.th-atividade-top {
+	background-image: linear-gradient(to bottom, white, #E0E0E0) !important;
+	padding: 2px;
+}
+
+.th-atividade-foot {
+	background-image: linear-gradient(to bottom, white, #E0E0E0) !important;
+	padding: 2px;
+}
+
+#adicionar-atividade {
+	margin-left: 0px;
+	margin-top: 0.5px;
+	margin-bottom: 0px;
+	color: #000000;
+	background: url('add.png') no-repeat left center;
+	display: inline-block;
+	padding: 0px 6px 0px 20px;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 20px;
+	height: 20px;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+}
+#adicionar-atividade:hover {
+	border-color: #CCC;
+	background-image: url('add.png'), linear-gradient(to bottom, white, #C0C0C0) !important;
+}
+
+#calcular-atividades {
+	margin-left: 0px;
+	margin-top: px;
+	margin-bottom: 2px !important;
+	color: #000000;
+	background: url('calculator.png') no-repeat left center;
+	display: inline-block;
+	padding: 0px 6px 0px 20px;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 20px;
+	height: 20px;
+	text-align: right;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-user-select: none;
+}
+
+#calcular-atividades:hover {
+	border-color: #CCC;
+	background-image: url('calculator.png'), linear-gradient(to bottom, white, #C0C0C0) !important;
+}
+
+.remover-atividade {
+	margin-left: 0px !important;
+	margin-top: 0pxx !important;
+	margin-bottom: 0px !important;
+	color: #000000 !important;
+	background: transparent url('cross.png') no-repeat left center !important;
+	display: inline-block !important;
+	width: 20px !important;
+	padding: 0 !important;
+	margin-left: 5px !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	line-height: 1.428571429 !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+	vertical-align: middle !important;
+	cursor: pointer !important;
+	border: 1px solid transparent !important;
+	-webkit-user-select: none;
+	height: 18px
+}
+
+.grid-atividades {
+	width: 100%;
+	box-shadow: 0 0 0.5px #000000;
+}
+
+.grid-atividades td {
+	padding: 0;
+	border-spacing: 0;
+}
+
+.grid-atividades .tablesorter-header,.grid-atividades thead th,.grid-atividades thead td
+	{
+	position: relative;
+	background-image: linear-gradient(to bottom, white, #efefef);
+	background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 1px 0 white;
+	-moz-box-shadow: inset 0 1px 0 #ffffff;
+	font-size: 10px;
+	font-weight: normal !important;
+}
+
+
+.grid-atividades tbody tr:nth-child(even) {
+	background: #FFF5EE;
+}
+.grid-atividades tbody tr:hover {
+	background: #F4F4F4;
+}
+
+.grid-atividades tbody td {
+	border-bottom: solid 1px #CCC;
+}
+
+.grid-atividades input[type="text"] {
+	border: 0;
+	border-left: solid 1px transparent;
+	border-right: solid 1px transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	background: transparent
+}
+
+.grid-atividades select {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.grid-atividades input[type="text"]:focus {
+	background: #FAFAD2;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+}
+
+.grid-atividades select {
+	margin: 0;
+	padding: 0;
+	height: 18px
+}
+
+.atividade-atividade input[type="text"] {
+	width: 98% !important;
+}
+
+.th-atividade-atividade {
+	text-align: left;
+	width: 550px !important;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.atividade-ch input[type="text"] {
+	width: 30px !important;
+}
+
+.th-atividade-ch {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+	width: 10px !important;
+}
+
+.atividade-data input[type="text"] {
+	width: 70px;
+}
+
+.th-atividade-data {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+	width: 10px;
+}
+
+.atividade-inicio input[type="text"] {
+	width: 50px;
+}
+
+.th-atividade-inicio {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+	width: 40px;
+}
+
+.atividade-termino input[type="text"] {
+	width: 50px;
+}
+
+.th-atividade-termino {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+	width: 40px;
+}
+
+.atividade-consultor input[type="text"] {
+	width: 120px;
+}
+
+.th-atividade-consultor {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+	width: 120px;
+}
+
+.atividade-acao {
+	text-align: center;
+}
+
+.atividade-acao input[type="text"] {
+	width: 30px;
+}
+
+.th-atividade-acao {
+	border-left: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-align: left;
+}
+
+.grid-atividades .tablesorter-header {
+	cursor: pointer;
+}
+
+.grid-atividades .tablesorter-header-inner {
+	position: relative;
+	padding: 4px 18px 4px 4px;
+}
